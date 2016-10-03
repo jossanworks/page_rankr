@@ -1,6 +1,4 @@
-# PageRankr [![Build Status](https://api.travis-ci.org/blatyo/page_rankr.png)](http://travis-ci.org/blatyo/page_rankr)
-
-Provides an easy way to retrieve Google Page Rank, Alexa Rank, backlink counts, index counts and different types of social signals.
+# PageRankr 
 
 __This project is abandoned. If you'd like to take ownership of this project, let me know.__
 
@@ -14,8 +12,7 @@ _Note: Version >= 4.5.0 no longer actively maintains compatibility with Ruby < 2
 
 Check out a little [web app][1] I wrote up that uses it or look at the [source][2].
 
-[1]: http://isitpopular.heroku.com
-[2]: https://github.com/blatyo/is_it_popular
+* [Snygga billiga herrskjortor online](http://www.kopaskjorta.nu/)
 
 ## Get it!
 
@@ -176,8 +173,6 @@ Also, once a tracker has run three values will be accessible from it:
 
 One of the annoying things about each of these services is that they really don't like you scraping data from them. In order to deal with this issue, they throttle traffic from a single machine. The simplest way to get around this is to use proxy machines to make the requests.
 
-In PageRankr >= 3.2.0, this is much simpler. The first thing you'll need is a proxy service. Two are provided [here](https://github.com/blatyo/page_rankr/tree/master/lib/page_rankr/proxy_services). A proxy service must define a `proxy` method that takes two arguments. It should return a string like `http://user:password@192.168.1.1:50501`.
-
 Once you have a proxy service, you can tell PageRankr to use it. For example:
 
 ``` ruby
@@ -263,9 +258,6 @@ Gotta give credit where credits due!
 
 Original inspiration from:
 
-* [PageRankSharp](https://github.com/alexmipego/PageRankSharp)
-* [Google Page Range Lookup/](http://snipplr.com/view/18329/google-page-range-lookup/)
-* [AJAX PR Checker](http://www.sitetoolcenter.com/free-website-scripts/ajax-pr-checker.php)
 
 ## Copyright
 
